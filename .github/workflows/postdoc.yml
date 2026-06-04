@@ -1,0 +1,61 @@
+name: postdoc-finder
+
+on:
+  schedule:
+    # 07:00 UTC daily (~07:00-08:00 UK time). Adjust as you like; for a weekly
+    # digest use e.g. '0 7 * * 1' (Mondays).
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        type: choice
+        default: normal
+        options: [normal, seed, dry-run]
+
+# Needed so the workflow can commit the updated seen_jobs.json back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: postdoc-finder
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run finder
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          case "$MODE" in
+            seed)     FLAG="--seed" ;;
+            dry-run)  FLAG="--dry-run" ;;
+            *)        FLAG="" ;;
+          esac
+          python -m postdoc_finder.main $FLAG
+
+      - name: Commit updated store
+        if: github.event.inputs.mode != 'dry-run'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- seen_jobs.json; then
+            git add seen_jobs.json
+            git commit -m "chore: update seen jobs ($(date -u +%F))"
+            git push
+          else
+            echo "No store changes to commit."
+          fi

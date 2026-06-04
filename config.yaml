@@ -1,0 +1,107 @@
+# Postdoc Finder configuration.
+# Tune everything here; no need to touch the Python code.
+
+store_file: seen_jobs.json
+retention_days: 120        # forget job ids older than this so the file stays small
+max_email_items: 30        # cap positions per email (rest are counted, not listed)
+
+# A job is kept when its keyword score >= area_threshold AND (if required) it
+# looks like a research/postdoc role. jobs.ac.uk listing pages carry no full
+# description, so each result folds in the search term it matched; that term's
+# weight (see keywords below) is what clears the threshold. Raise to be stricter.
+area_threshold: 3
+require_postdoc_role: true
+
+# ---------------------------------------------------------------------------
+# Sources.
+#
+# type: jobs_ac_uk  -> runs a keyword search on jobs.ac.uk and parses the
+#   rendered listing (its RSS feed was retired). `keywords` is the search term;
+#   `pages` is how many pages of 25 (newest first) to pull.
+# type: rss         -> any standard RSS/Atom feed by `url` (for future sources).
+#
+# A source that fails is logged and skipped; it never breaks the run.
+# Add a keyword search by copying a block and changing `keywords`.
+# ---------------------------------------------------------------------------
+sources:
+  - name: jobs.ac.uk · computer vision
+    type: jobs_ac_uk
+    keywords: computer vision
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · multimodal
+    type: jobs_ac_uk
+    keywords: multimodal
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · vision language
+    type: jobs_ac_uk
+    keywords: vision language
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · video understanding
+    type: jobs_ac_uk
+    keywords: video understanding
+    pages: 1
+    enabled: true
+
+  # Broader nets, disabled by default (enable if you want more volume):
+  - name: jobs.ac.uk · machine learning
+    type: jobs_ac_uk
+    keywords: machine learning
+    pages: 1
+    enabled: false
+
+  # Future RSS source slot (e.g. Euraxess) once a working feed URL is confirmed:
+  - name: Euraxess (verify feed URL)
+    type: rss
+    url: ""
+    enabled: false
+
+# ---------------------------------------------------------------------------
+# Keywords with weights. Title hits count double. The weight of a source's
+# search term also credits every result from that search (see note above), so
+# keep the terms you search for present here. Multi-word phrases match as
+# lowercased substrings.
+# ---------------------------------------------------------------------------
+keywords:
+  # core area (highest signal)
+  moment retrieval: 5
+  video moment: 5
+  temporal grounding: 5
+  video grounding: 5
+  temporal localization: 5
+  video understanding: 4
+  vision-language: 4
+  vision language: 4
+  multimodal: 4
+  multi-modal: 4
+  # adjacent / supporting
+  computer vision: 3
+  video: 2
+  vision language model: 4
+  multimodal learning: 4
+  mllm: 3
+  vlm: 3
+  foundation model: 2
+  representation learning: 2
+  # broad ML base (low weight, only matters in combination)
+  deep learning: 1
+  machine learning: 1
+  artificial intelligence: 1
+  neural network: 1
+
+# ---------------------------------------------------------------------------
+# Role indicators. At least one must appear when require_postdoc_role is true.
+# Covers UK terms (Research Associate / Research Fellow) used on jobs.ac.uk.
+# ---------------------------------------------------------------------------
+role_terms:
+  - postdoc
+  - post-doc
+  - postdoctoral
+  - research fellow
+  - research associate
+  - research assistant
+  - research scientist
+  - research officer
+  - research engineer
