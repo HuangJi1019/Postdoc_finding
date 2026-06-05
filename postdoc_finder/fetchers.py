@@ -77,8 +77,6 @@ def _parse_jobs_ac_uk(html: str, source: str, keywords: str) -> list[Job]:
         # page has no full description, so folding the matched query in lets the
         # scorer credit the relevance jobs.ac.uk already established server-side.
         summary = department
-        if keywords:
-            summary = f"{department}. Matched jobs.ac.uk search: {keywords}."
         jobs.append(
             Job(
                 title=title,
