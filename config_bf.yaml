@@ -1,0 +1,142 @@
+# Postdoc Finder — boyfriend profile
+# Focus: AI/ML + time series / environmental computing / financial computing
+# Recipient: set via RECIPIENT_BF secret in GitHub Actions
+
+store_file: seen_jobs_bf.json
+retention_days: 120
+max_email_items: 30
+
+area_threshold: 3
+require_postdoc_role: true
+
+sources:
+  # ── AI / ML general ────────────────────────────────────────────────────────
+  - name: jobs.ac.uk · artificial intelligence
+    type: jobs_ac_uk
+    keywords: artificial intelligence
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · machine learning
+    type: jobs_ac_uk
+    keywords: machine learning
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · deep learning
+    type: jobs_ac_uk
+    keywords: deep learning
+    pages: 1
+    enabled: true
+
+  # ── Time series ────────────────────────────────────────────────────────────
+  - name: jobs.ac.uk · time series
+    type: jobs_ac_uk
+    keywords: time series
+    pages: 2
+    enabled: true
+  - name: jobs.ac.uk · time series forecasting
+    type: jobs_ac_uk
+    keywords: time series forecasting
+    pages: 1
+    enabled: true
+
+  # ── Environmental + AI ─────────────────────────────────────────────────────
+  - name: jobs.ac.uk · climate machine learning
+    type: jobs_ac_uk
+    keywords: climate machine learning
+    pages: 1
+    enabled: true
+  - name: jobs.ac.uk · environmental machine learning
+    type: jobs_ac_uk
+    keywords: environmental machine learning
+    pages: 1
+    enabled: true
+  - name: jobs.ac.uk · remote sensing deep learning
+    type: jobs_ac_uk
+    keywords: remote sensing deep learning
+    pages: 1
+    enabled: true
+  - name: jobs.ac.uk · earth observation
+    type: jobs_ac_uk
+    keywords: earth observation machine learning
+    pages: 1
+    enabled: true
+
+  # ── Finance + AI ───────────────────────────────────────────────────────────
+  - name: jobs.ac.uk · financial machine learning
+    type: jobs_ac_uk
+    keywords: financial machine learning
+    pages: 1
+    enabled: true
+  - name: jobs.ac.uk · quantitative finance
+    type: jobs_ac_uk
+    keywords: quantitative finance
+    pages: 1
+    enabled: true
+  - name: jobs.ac.uk · computational finance
+    type: jobs_ac_uk
+    keywords: computational finance
+    pages: 1
+    enabled: true
+
+# ---------------------------------------------------------------------------
+# Keywords with weights. Title hits count double.
+# Threshold is 3 — a job must hit at least one meaningful keyword.
+# ---------------------------------------------------------------------------
+keywords:
+  # ── Time series (high signal) ────────────────────────────────────────────
+  time series analysis: 5
+  time series forecasting: 5
+  time series classification: 5
+  temporal modelling: 5
+  sequence modelling: 4
+  anomaly detection: 4
+  forecasting: 3
+  signal processing: 3
+  sequential data: 3
+
+  # ── Environmental AI (high signal) ───────────────────────────────────────
+  climate machine learning: 5
+  environmental machine learning: 5
+  remote sensing deep learning: 5
+  earth observation: 4
+  climate modelling: 4
+  environmental monitoring: 4
+  geospatial deep learning: 4
+  remote sensing: 3
+  climate change: 2
+  environmental data: 2
+
+  # ── Financial AI (high signal) ────────────────────────────────────────────
+  financial machine learning: 5
+  quantitative finance: 5
+  algorithmic trading: 4
+  financial forecasting: 4
+  risk modelling: 4
+  computational finance: 4
+  fintech: 3
+  financial deep learning: 4
+  portfolio optimisation: 3
+
+  # ── AI / ML core ─────────────────────────────────────────────────────────
+  artificial intelligence: 3
+  machine learning: 3
+  deep learning: 2
+  neural network: 2
+  large language model: 3
+  reinforcement learning: 2
+  transformer: 2
+  foundation model: 2
+
+  # ── broad (only matters in combination) ──────────────────────────────────
+  data science: 1
+
+role_terms:
+  - postdoc
+  - post-doc
+  - postdoctoral
+  - research fellow
+  - research associate
+  - research assistant
+  - research scientist
+  - research officer
+  - research engineer

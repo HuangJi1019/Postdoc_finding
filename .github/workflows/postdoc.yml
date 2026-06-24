@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run finder
+      - name: Run finder (computer vision / multimodal)
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
@@ -47,13 +47,27 @@ jobs:
           esac
           python -m postdoc_finder.main $FLAG
 
+      - name: Run finder (AI / time-series / environment / finance) — boyfriend
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT: henry82805236@gmail.com
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          case "$MODE" in
+            seed)     FLAG="--seed" ;;
+            dry-run)  FLAG="--dry-run" ;;
+            *)        FLAG="" ;;
+          esac
+          python -m postdoc_finder.main --config config_bf.yaml $FLAG
+
       - name: Commit updated store
         if: github.event.inputs.mode != 'dry-run'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- seen_jobs.json; then
-            git add seen_jobs.json
+          git add seen_jobs.json seen_jobs_bf.json 2>/dev/null || true
+          if ! git diff --staged --quiet; then
             git commit -m "chore: update seen jobs ($(date -u +%F))"
             git push
           else
