@@ -259,6 +259,11 @@
     "title": "2 x Research Officers",
     "url": "https://www.jobs.ac.uk/job/DTH457/2-x-research-officers"
   },
+  "2c5204c261d62f89": {
+    "first_seen": "2026-11-05T14:59:47Z",
+    "title": "Research Fellow - Bioinformatics and Data Sciences",
+    "url": "https://www.jobs.ac.uk/job/DTN904/research-fellow-bioinformatics-and-data-sciences"
+  },
   "2c75c373125df0df": {
     "first_seen": "2026-09-04T11:47:56Z",
     "title": "Postdoctoral Researcher –Technical (ARIADNE)",
@@ -544,11 +549,6 @@
     "title": "Research Assistant in Data Science",
     "url": "https://www.jobs.ac.uk/job/DSM818/research-assistant-in-data-science"
   },
-  "51e75e2e9b62c38c": {
-    "first_seen": "2026-07-08T09:18:17Z",
-    "title": "Research Associate in Statistics",
-    "url": "https://www.jobs.ac.uk/job/DSE274/research-associate-in-statistics"
-  },
   "5293406199febeab": {
     "first_seen": "2026-10-28T13:37:30Z",
     "title": "Postdoctoral Research Associate",
@@ -703,6 +703,11 @@
     "first_seen": "2026-09-24T12:21:21Z",
     "title": "Research Associate in Mathematical Biomedicine",
     "url": "https://www.jobs.ac.uk/job/DTA716/research-associate-in-mathematical-biomedicine"
+  },
+  "626eff4f250e42b3": {
+    "first_seen": "2026-11-05T14:59:47Z",
+    "title": "Research Fellow",
+    "url": "https://www.jobs.ac.uk/job/DTN709/research-fellow"
   },
   "62f121a8812c5d10": {
     "first_seen": "2026-08-26T07:35:42Z",
@@ -1034,11 +1039,6 @@
     "title": "Research Associate in AI and Evidence Synthesis",
     "url": "https://www.jobs.ac.uk/job/DTJ895/research-associate-in-ai-and-evidence-synthesis"
   },
-  "9f39b7d5e602cad8": {
-    "first_seen": "2026-07-08T09:18:17Z",
-    "title": "Postdoctoral Research Assistant in Temporal Reasoning and Ultrasound Video Analysis",
-    "url": "https://www.jobs.ac.uk/job/DSE180/postdoctoral-research-assistant-in-temporal-reasoning-and-ultrasound-video-analysis"
-  },
   "9f4bda9f18931baf": {
     "first_seen": "2026-07-17T09:01:48Z",
     "title": "Research Associate in Computational Biomolecular Physics",
@@ -1238,6 +1238,16 @@
     "first_seen": "2026-07-18T08:29:16Z",
     "title": "Postdoctoral Research Associate",
     "url": "https://www.jobs.ac.uk/job/DSH419/postdoctoral-research-associate"
+  },
+  "bb1c2163466ec061": {
+    "first_seen": "2026-11-05T14:59:47Z",
+    "title": "Research Associate in Computational And Theoretical Photochemistry",
+    "url": "https://www.jobs.ac.uk/job/DTO016/research-associate-in-computational-and-theoretical-photochemistry"
+  },
+  "bbfaf7e91ae144c5": {
+    "first_seen": "2026-11-05T14:59:47Z",
+    "title": "Research Associate",
+    "url": "https://www.jobs.ac.uk/job/DTN722/research-associate"
   },
   "bc02b3ec5aa428bc": {
     "first_seen": "2026-10-27T12:47:49Z",
@@ -1618,6 +1628,11 @@
     "first_seen": "2026-08-21T07:33:05Z",
     "title": "Research Fellow (109857-0826)",
     "url": "https://www.jobs.ac.uk/job/DSR193/research-fellow-109857-0826"
+  },
+  "e5ddaf6b6636a3a3": {
+    "first_seen": "2026-11-05T14:59:47Z",
+    "title": "Postdoctoral Research Assistant in Machine Learning and Multimodal Clinical AI",
+    "url": "https://www.jobs.ac.uk/job/DTN879/postdoctoral-research-assistant-in-machine-learning-and-multimodal-clinical-ai"
   },
   "e7f3f47a2cfd7932": {
     "first_seen": "2026-10-31T13:08:34Z",
