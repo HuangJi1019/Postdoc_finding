@@ -324,16 +324,6 @@
     "title": "Research Associate",
     "url": "https://www.jobs.ac.uk/job/DSU800/research-associate"
   },
-  "557883c0e4edc41c": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "KTP Research Associate",
-    "url": "https://www.jobs.ac.uk/job/DSE999/ktp-research-associate"
-  },
-  "558abd30056d62f7": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "Research Associate in Medical Image Analysis",
-    "url": "https://www.jobs.ac.uk/job/DSF215/research-associate-in-medical-image-analysis"
-  },
   "561428772e5c8368": {
     "first_seen": "2026-08-21T07:32:32Z",
     "title": "Postdoc in Computer Vision for AI-based Segmentation and Quantification 3D micro-CT data for Natural Heritage",
@@ -418,11 +408,6 @@
     "first_seen": "2026-10-07T14:00:33Z",
     "title": "Research Associate - Community Engagement & Participatory Design",
     "url": "https://www.jobs.ac.uk/job/DTE592/research-associate-community-engagement-and-participatory-design"
-  },
-  "77d935cdeeae5bb5": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "Postdoctoral Project Research Scientist – Machine Learning, Machine Vision & Data Integration",
-    "url": "https://www.jobs.ac.uk/job/DSE995/postdoctoral-project-research-scientist-machine-learning-machine-vision-and-data-integration"
   },
   "78e4c591949e8ebf": {
     "first_seen": "2026-08-06T09:32:55Z",
@@ -524,11 +509,6 @@
     "title": "Research Fellow in the re-use of Concrete",
     "url": "https://www.jobs.ac.uk/job/DSM120/research-fellow-in-the-re-use-of-concrete"
   },
-  "a00708642d509595": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "Research Scientist in LLM for Difficult-to-treat Depression",
-    "url": "https://www.jobs.ac.uk/job/DSE898/research-scientist-in-llm-for-difficult-to-treat-depression"
-  },
   "a14a5e5aee593acf": {
     "first_seen": "2026-07-11T08:31:01Z",
     "title": "Research Associate in Nanomedicine",
@@ -543,11 +523,6 @@
     "first_seen": "2026-09-16T12:14:24Z",
     "title": "Experienced Postdoctoral Researcher - Laser Physicist / Optical Engineer - DTIF SensABLATE Project",
     "url": "https://www.jobs.ac.uk/job/DSY266/experienced-postdoctoral-researcher-laser-physicist-optical-engineer-dtif-sensablate-project"
-  },
-  "a5ded6ce83949dd6": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "AI/ML Postdoctoral Fellow - F Rouhani Lab",
-    "url": "https://www.jobs.ac.uk/job/DSF228/ai-ml-postdoctoral-fellow-f-rouhani-lab"
   },
   "a9295f7bdb6a136f": {
     "first_seen": "2026-08-11T07:59:44Z",
@@ -689,11 +664,6 @@
     "title": "Postdoctoral Research Associate in Applied Artificial Intelligence for Public Breeding",
     "url": "https://www.jobs.ac.uk/job/DSW920/postdoctoral-research-associate-in-applied-artificial-intelligence-for-public-breeding"
   },
-  "cacb407df40bfd00": {
-    "first_seen": "2026-07-10T10:12:39Z",
-    "title": "Research Associate",
-    "url": "https://www.jobs.ac.uk/job/DSE991/research-associate"
-  },
   "cb7e5ba7ee4b195d": {
     "first_seen": "2026-07-29T09:30:55Z",
     "title": "Postdoctoral Research Associate",
@@ -703,6 +673,11 @@
     "first_seen": "2026-10-22T12:32:50Z",
     "title": "Research Fellow in Analog Computing for Advanced Communication Systems",
     "url": "https://www.jobs.ac.uk/job/DTJ039/research-fellow-in-analog-computing-for-advanced-communication-systems"
+  },
+  "d0bf1cae9d4fcf64": {
+    "first_seen": "2026-11-07T13:37:19Z",
+    "title": "Research Associate in AI for Environmental Forecasting (SENTINEL project)",
+    "url": "https://www.jobs.ac.uk/job/DTO577/research-associate-in-ai-for-environmental-forecasting-sentinel-project"
   },
   "d12328c2a4eebc3a": {
     "first_seen": "2026-07-14T08:56:32Z",
