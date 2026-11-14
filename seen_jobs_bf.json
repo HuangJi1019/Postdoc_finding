@@ -644,11 +644,6 @@
     "title": "Research Assistant in AI",
     "url": "https://www.jobs.ac.uk/job/DSX117/research-assistant-in-ai"
   },
-  "5ce29352edf4701a": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Fellow",
-    "url": "https://www.jobs.ac.uk/job/DSH210/research-fellow"
-  },
   "5d522a1112e910ed": {
     "first_seen": "2026-09-17T12:15:20Z",
     "title": "Postdoctoral Research Assistant(s) in Fundamental AI Research",
@@ -844,6 +839,11 @@
     "title": "Postdoctoral Research Associate in Smart and Green AI",
     "url": "https://www.jobs.ac.uk/job/DTP276/postdoctoral-research-associate-in-smart-and-green-ai"
   },
+  "7cd57841536d3ffa": {
+    "first_seen": "2026-11-14T13:50:36Z",
+    "title": "Postdoctoral Research Scientist - Mechanistic Modelling for Rare Disease Digital Twins",
+    "url": "https://www.jobs.ac.uk/job/DTQ535/postdoctoral-research-scientist-mechanistic-modelling-for-rare-disease-digital-twins"
+  },
   "7ce4ef7c637ee7c6": {
     "first_seen": "2026-09-21T13:25:01Z",
     "title": "Research Associate in Physical Intelligence",
@@ -923,6 +923,11 @@
     "first_seen": "2026-08-21T07:33:05Z",
     "title": "Research Fellow in Offshore Digital Twins",
     "url": "https://www.jobs.ac.uk/job/DSR363/research-fellow-in-offshore-digital-twins"
+  },
+  "8c673a274e79ff76": {
+    "first_seen": "2026-11-14T13:50:36Z",
+    "title": "(Senior) Postdoctoral Research Scientist - AI Integrated Digital Twins",
+    "url": "https://www.jobs.ac.uk/job/DTQ530/senior-postdoctoral-research-scientist-ai-integrated-digital-twins"
   },
   "8d47125afa4a279e": {
     "first_seen": "2026-10-16T11:57:40Z",
@@ -1044,11 +1049,6 @@
     "title": "Research Associate in AI and Evidence Synthesis",
     "url": "https://www.jobs.ac.uk/job/DTJ895/research-associate-in-ai-and-evidence-synthesis"
   },
-  "9f4bda9f18931baf": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Associate in Computational Biomolecular Physics",
-    "url": "https://www.jobs.ac.uk/job/DSH003/research-associate-in-computational-biomolecular-physics"
-  },
   "a05059be7b930e23": {
     "first_seen": "2026-09-10T11:53:35Z",
     "title": "Senior Machine Learning Engineer - National Security (TIRE)",
@@ -1118,11 +1118,6 @@
     "first_seen": "2026-09-03T11:46:22Z",
     "title": "Research Assistant in Data Processing for AI-Enabled Tree Species Mapping",
     "url": "https://www.jobs.ac.uk/job/DSU532/research-assistant-in-data-processing-for-ai-enabled-tree-species-mapping"
-  },
-  "ad57e0124abfe3e4": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Fellow in AI for Advanced Endoscopic Imaging",
-    "url": "https://www.jobs.ac.uk/job/DSH222/research-fellow-in-ai-for-advanced-endoscopic-imaging"
   },
   "adec0721efd509e1": {
     "first_seen": "2026-08-04T09:31:55Z",
@@ -1284,11 +1279,6 @@
     "title": "Research Associate in Machine Learning (Fixed Term)",
     "url": "https://www.jobs.ac.uk/job/DSR480/research-associate-in-machine-learning-fixed-term"
   },
-  "c0076de6f92c2143": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Fellow in AI-Native Telecommunications Systems",
-    "url": "https://www.jobs.ac.uk/job/DSG938/research-fellow-in-ai-native-telecommunications-systems"
-  },
   "c062391a2bc4892b": {
     "first_seen": "2026-10-17T11:13:39Z",
     "title": "Postdoctoral Research Associate/Fellow - Philosophy and Ethics of AI",
@@ -1358,6 +1348,11 @@
     "first_seen": "2026-08-08T07:38:53Z",
     "title": "Research Associate in Machine Learning for Protein Design",
     "url": "https://www.jobs.ac.uk/job/DSN539/research-associate-in-machine-learning-for-protein-design"
+  },
+  "c6084c77e9c9a85e": {
+    "first_seen": "2026-11-14T13:50:36Z",
+    "title": "Postdoctoral research assistant in Shape-morphing quadruped robots",
+    "url": "https://www.jobs.ac.uk/job/DTQ526/postdoctoral-research-assistant-in-shape-morphing-quadruped-robots"
   },
   "c61fa929beee09f1": {
     "first_seen": "2026-10-06T13:41:57Z",
@@ -1489,11 +1484,6 @@
     "title": "Post Doctoral Research Assistant (Part-Time, Fixed-Term)",
     "url": "https://www.jobs.ac.uk/job/DTM132/post-doctoral-research-assistant-part-time-fixed-term"
   },
-  "d61141ef680f6325": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Associate",
-    "url": "https://www.jobs.ac.uk/job/DSG856/research-associate"
-  },
   "d62a2f69c9804769": {
     "first_seen": "2026-07-24T09:13:56Z",
     "title": "Research Fellow (Economic and Fiscal Policy)",
@@ -1503,6 +1493,11 @@
     "first_seen": "2026-11-09T16:55:45Z",
     "title": "Postdoctoral Research Associate in Robust and Trustworthy Generative AI",
     "url": "https://www.jobs.ac.uk/job/DTO958/postdoctoral-research-associate-in-robust-and-trustworthy-generative-ai"
+  },
+  "d8ad17bdfb608513": {
+    "first_seen": "2026-11-14T13:50:36Z",
+    "title": "Postdoctoral Research Scientist - Generative AI & Digital Twins",
+    "url": "https://www.jobs.ac.uk/job/DTQ544/postdoctoral-research-scientist-generative-ai-and-digital-twins"
   },
   "d9356727f702276f": {
     "first_seen": "2026-11-11T14:45:53Z",
@@ -1773,11 +1768,6 @@
     "first_seen": "2026-10-14T12:30:52Z",
     "title": "Postdoctoral Research Assistant in Statistical Machine Learning for Genomics",
     "url": "https://www.jobs.ac.uk/job/DTG660/postdoctoral-research-assistant-in-statistical-machine-learning-for-genomics"
-  },
-  "f8e745dd7197ddfc": {
-    "first_seen": "2026-07-17T09:01:48Z",
-    "title": "Research Associate",
-    "url": "https://www.jobs.ac.uk/job/DSH205/research-associate"
   },
   "f8f470cdc34d769f": {
     "first_seen": "2026-10-22T12:33:22Z",
